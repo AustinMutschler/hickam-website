@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start:dev": "react-scripts start",
-    "predeploy": "yarn build",
+    "predeploy": "yarn build && echo hickam.com > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
