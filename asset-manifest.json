@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/hickam-website/static/css/main.cff968ab.css",
-    "main.js": "/hickam-website/static/js/main.aa94b193.js",
-    "static/media/hero-family-photo.jpg": "/hickam-website/static/media/hero-family-photo.facd035537daef493db4.jpg",
-    "index.html": "/hickam-website/index.html",
-    "main.cff968ab.css.map": "/hickam-website/static/css/main.cff968ab.css.map",
-    "main.aa94b193.js.map": "/hickam-website/static/js/main.aa94b193.js.map"
+    "main.css": "/static/css/main.fda6ceea.css",
+    "main.js": "/static/js/main.aa94b193.js",
+    "static/media/hero-family-photo.jpg": "/static/media/hero-family-photo.facd035537daef493db4.jpg",
+    "index.html": "/index.html",
+    "main.fda6ceea.css.map": "/static/css/main.fda6ceea.css.map",
+    "main.aa94b193.js.map": "/static/js/main.aa94b193.js.map"
   },
   "entrypoints": [
-    "static/css/main.cff968ab.css",
+    "static/css/main.fda6ceea.css",
     "static/js/main.aa94b193.js"
   ]
 }
