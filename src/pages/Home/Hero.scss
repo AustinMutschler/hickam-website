@@ -1,0 +1,37 @@
+@supports (-webkit-touch-callout: none) {
+
+  // Fixes an issue with iOS where 100vh overfills the screen
+  #hero-section {
+    min-height: -webkit-fill-available!important;
+  }
+}
+
+#hero-section {
+  display: flex;
+  align-items: flex-end;
+  flex: 1;
+  min-height: 100vh;
+  background: no-repeat url(./assets/pictures/hero-family-photo.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
+
+  .hero-title-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+    background: linear-gradient(180deg, rgba(28, 39, 55, 0.00) 0%, rgba(28, 39, 55, 0.50) 25.52%, rgba(28, 39, 55, 0.70) 46.35%, #1C2737 100%);
+    padding-bottom: 5%;
+
+    .family-name {
+      font-size: 6vw;
+      font-weight: 400;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

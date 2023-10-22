@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
+import Hero from "./Hero.js";
 
 function HomePage() {
   return (
     <div id="home-page">
-      <h1>Home Page</h1>
+      <Hero />
     </div>
   );
 }
